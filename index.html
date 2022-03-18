@@ -8,28 +8,39 @@
     <link rel="stylesheet" href="/css/stylega.css" />
   </head>
   <body>
-    <header>
-      <a href="/cv_pdf/Curriculum.pdf" target="_blank" class="logo">CV</a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="/CVes.html">Español</a></li>
-      </ul>
-    </header>
+    <div class="menu">
+      <header>
+        <a href="/cv_pdf/Curriculum.pdf" target="_blank" class="logo">CV</a>
+        <ul id="menulist">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="/CVes.html">Español</a></li>
+        </ul>
+
+        <img
+          class="burger"
+          src="/images/Logo/Hamburger_icon.svg.png"
+          alt=""
+          onclick="togglemenu()"
+        />
+      </header>
+      <script type="text/javascript" src="/js/menu.js"></script>
+    </div>
     <!------------------------------>
     <div class="home">
       <section>
         <img src="/images/PfP/PfP1 copy.jpg" id="im1" alt="" />
         <h1>
           Home <br />
-          Hi I'm Braulio Gutierrez an enthusiast <br />
-          cibernetic engineeer, photographer,<br />
-          music lover, and crypto investor.
+          Hi, My name is Braulio Gutierrez. I'm an <br />
+          enthusiastic cybernetic engineeer, I'm also <br />
+          an avid photographer, music lover,
           <br />
+          and crypto investor. <br />
         </h1>
       </section>
     </div>
@@ -38,10 +49,10 @@
       <section>
         <h1 class="border">About me</h1>
         <h2>
-          At this time I'm studying Cibernetics Engineer at Universidad La
-          salle. <br />
-          I've worked on school projects with different programming languages
-          and some applications: <br />
+          At this time I'm studying Cybernetics and Computer Systems Engineering
+          at Universidad La Salle. <br />
+          I've worked on multiple school projects with different programming
+          languages and some applications such as. <br />
           <ul>
             <li>Arduino</li>
             <li>C</li>
@@ -52,9 +63,11 @@
             <li>JavaScript</li>
             <li>CSS</li>
           </ul>
-          My commitment with any job is to learn, develop my skills, contribute
-          ideas, form ties with my co-workers, develop my potential, for the
-          growth of the company.
+          My commitment with any given job is to learn from it as much as I can
+          so I can then improve upon it. Developing my soft skills in a work
+          environment is something I'm also looking forward to. In hopes of
+          trying to be better I would also try to contribute any ideas that
+          could prove useful for the place I'm working at.
         </h2>
       </section>
     </div>
@@ -65,7 +78,7 @@
         <img src="/images/Logo/ULSA-La-Salle.png" id="im1" alt="" />
         <h2>
           Cybernetics and Computer Systems Engineering. <br />
-          8th semester, Degree date December 2022. <br />
+          8th semester, Graduation date December 2022. <br />
           Facultad de Ingeniería. <br />
           ULSA (Universidad La Salle Campus Condesa) Mexico City.
         </h2>
@@ -79,7 +92,7 @@
           <ul>
             <li>Collaboration or teamwork</li>
             <li>Organization</li>
-            <li>Preseverance and motivation</li>
+            <li>Perseverance and motivation</li>
             <li>Multitasking</li>
             <li>Adaptability</li>
           </ul>
@@ -121,8 +134,9 @@
       <section>
         <h1 class="border">Projects</h1>
         <h2>
-          These projects just are school projects developed for some university
-          subject as Programming, Videogames, Electronics just to name a few.
+          These projects are school projects developed for some university
+          subject such as Programming, Videogames, Electronics just to name a
+          few, and the remaning projects are personal projects.
         </h2>
         <div class="gallery">
           <a target="_blank" href="/images/Projects/carritobt.jpeg">
